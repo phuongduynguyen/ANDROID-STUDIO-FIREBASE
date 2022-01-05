@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nightsky"
+    tools:context=".Weather">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <EditText
+            android:layout_marginLeft="4dp"
+            android:id="@+id/edtSeach"
+            android:hint="City, State"
+            android:layout_width="275dp"
+            android:textColor="#FFFAFA"
+            android:textColorHint="	#FFFAFA"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSeach"
+            android:layout_width="122dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button2"
+            android:text="Seach"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City name"
+        android:textColor="#FFFAFA"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textColor="#FFFAFA"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="	#FFFAFA"
+        android:textSize="30dp"
+        android:text="Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFAFA"
+        android:textSize="20dp"
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="	#FFFAFA"
+                android:textSize="20dp"
+                android:text="60%"
+                android:id="@+id/tvHumidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/cloudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="	#FFFAFA"
+                android:textSize="20dp"
+                android:text="Cloudy"
+                android:id="@+id/tvCloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="	#FFFAFA"
+                android:textSize="20dp"
+                android:text="60%"
+                android:id="@+id/tvSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#FFFAFA"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Day month"
+        android:id="@+id/tvDay"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNextday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/custom_button2"
+        android:text="Next Day"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

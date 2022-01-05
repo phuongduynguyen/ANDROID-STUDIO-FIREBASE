@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Living room"
+        android:id="@+id/phongKhach" />
+    <item
+        android:title="Kitchen"
+        android:id="@+id/phongBep" />
+    <item
+        android:title="Monitor"
+        android:id="@+id/monitor" />
+    <item
+        android:title="Weather"
+        android:id="@+id/weather" />
+
+</menu>

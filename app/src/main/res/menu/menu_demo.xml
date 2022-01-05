@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Devices"
+        android:id="@+id/menuDevice"/>
+
+    <item android:title="Sensor"
+        android:id="@+id/menuSensor"/>
+
+    <item android:title="Weather"
+        android:id="@+id/menuWeather"/>
+
+    <item android:title="Camera"
+        android:id="@+id/menuCamera"/>
+</menu>

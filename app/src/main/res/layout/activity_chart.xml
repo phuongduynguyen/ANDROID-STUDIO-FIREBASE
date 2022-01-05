@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Chart">
+
+    <Button
+        android:id="@+id/btnBarchart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bar Charts"/>
+
+    <Button
+        android:id="@+id/btnPiechart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pie Charts"/>
+
+    <Button
+        android:id="@+id/btnRadachart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radar Charts"/>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv"
+4    android:versionCode="34130"
+5    android:versionName="3.4.13" >
+6
+7    <uses-sdk
+7-->D:\DOANTOTNGHIEP\MyHomie- tflite\openCVLibrary3413\src\main\AndroidManifest.xml:7:5-73
+8        android:minSdkVersion="21"
+8-->D:\DOANTOTNGHIEP\MyHomie- tflite\openCVLibrary3413\src\main\AndroidManifest.xml:7:15-40
+9        android:targetSdkVersion="30" />
+9-->D:\DOANTOTNGHIEP\MyHomie- tflite\openCVLibrary3413\src\main\AndroidManifest.xml:7:41-70
+10
+11</manifest>

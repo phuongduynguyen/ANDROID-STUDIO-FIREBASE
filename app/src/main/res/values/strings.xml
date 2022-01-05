@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyHomie v1</string>
+    <string name="channel_name">channel1</string>
+    <string name="channel_description">this is channel1</string>
+    <string name="facebook_app_id">238442828123876</string>
+    <string name="fb_login_protocol_scheme">fb238442828123876</string>
+    <string name="Edge">EDGE</string>
+    <string name="title_main">DHT11 ESP8266</string>
+    <string name="sub_title_main">Firebase Java</string>
+    <string name="all">TODO</string>
+    <string name="title_temperature">Temperature</string>
+    <string name="title_humidity">Humidity</string>
+    <string name="temperature">28 °C</string>
+    <string name="humidity">75 %</string>
+    <string name="title_co2">CO2</string>
+
+</resources>
